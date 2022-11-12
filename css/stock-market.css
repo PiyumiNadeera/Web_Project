@@ -10,7 +10,7 @@ body::before{
     bottom: 0;
     left: 0;
     z-index: -1;
-    background-image: url("/assets/stock-market.jpeg");
+    background-image: url("../assets/stock-market.jpeg");
     background-size: cover;
     background-position: center;
     opacity: .25;
