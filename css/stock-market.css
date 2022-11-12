@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url("/assets/stock-market.jpeg");
+    background-size: cover;
+    background-position: center;
+    opacity: .25;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    padding-top: 75px;
+    background: rgba(255,85,0, .7);
+    text-align: center;
+    color: #4E4C48;
+    font-size: 1.5em;
+}
