@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body::before{
+    content: "";
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url("../assets/photo_2022-11-17_11-37-35.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: .65;
+}
+
+body {
+    box-shadow: none;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    padding-top: 75px;
+    background: rgba(255,85,0, .7);
+    text-align: center;
+    color: #4E4C48;
+    font-size: 1.5em;
+}
