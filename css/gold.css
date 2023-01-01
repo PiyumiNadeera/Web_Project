@@ -10,7 +10,7 @@ body::before{
     bottom: 0;
     left: 0;
     z-index: -1;
-    background-image: url("../assets/photo_2022-11-17_11-37-35.jpg");
+    background-image: url("../assets/gold.jpg");
     background-size: cover;
     background-position: center;
     opacity: .65;
