@@ -13,7 +13,7 @@ body::before{
     background-image: url("../assets/stock-market.jpeg");
     background-size: cover;
     background-position: center;
-    opacity: .25;
+    opacity: .65;
 }
 
 body {
