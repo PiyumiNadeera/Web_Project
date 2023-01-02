@@ -13,6 +13,7 @@ body::before{
     left: 0;
     z-index: -1;
     background-image: url("../assets/background.jpg");
+    filter: blur(8px);
     background-size: cover;
     background-position: center;
     opacity: .65;
